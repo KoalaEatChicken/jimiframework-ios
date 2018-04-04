@@ -42,7 +42,7 @@
   >
   > eg.游戏版本：7.5.0，则version可填750
 
-  ​
+  
 
 ## 2. 快速接入
 
@@ -54,7 +54,7 @@
 
 ```objective-c
 //请在适当位置注册点击浮点里退出按钮的通知
-[[NSNotificationCenter defaultCenter] addObserver:self 		selector:@selector(switchuser:) name:@"JavascriptSwitchUser" object:nil];
+[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(switchuser:) name:@"JavascriptSwitchUser" object:nil];
 
 // 收到退出的通知
 - (void)switchuser:(NSNotification *)sender
