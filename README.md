@@ -135,5 +135,5 @@
 
 
 
-[plist_tip]:./sdk_v1_x_imgs/plist_tip.png	"配置参数"
+[plist_tip]:./docs/doc_res/plist_tip.png	"配置参数"
 
