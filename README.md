@@ -98,7 +98,7 @@ sdk对应的服务端接入文档，请移步：  [考拉游戏平台sdk服务�
 ### 2.3 登录
 
 ```objective-c
-//登录接口，在初始化完成后即可调用
+//登录接口，请确保在初始化完成后才可调用
 [[JIMIFile JIMIShare] gameLoginSuccess:^(NSDictionary *dict) {
     NSLog(@"登录成功:%@",dict);
 } andFailure:^{
@@ -116,7 +116,7 @@ sdk对应的服务端接入文档，请移步：  [考拉游戏平台sdk服务�
 
 ```objective-c
 [[JIMIFile JIMIShare] gameLoginoutSuccess:^{
-    NSLog(@“登出成功，需要重新初始化");
+    NSLog(@“登出成功，下次再调用登录接口时需要重新初始化");
 } andFailure:^{
 
 }];
