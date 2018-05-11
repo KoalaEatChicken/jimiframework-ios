@@ -88,11 +88,11 @@ sdk对应的服务端接入文档，请移步：  [考拉游戏平台sdk服务�
 ### 2.2 初始化
 
 ```objective-c
-[[JIMIFile JIMIShare] gameInitSuccess:^(NSString *paramer) {
-    NSLog(@"gameInitSuccess:返回是否测试提审 1测试 %@",paramer);
-} andFailure:^{
-	NSLog(@"初始化失败");
-}];
+ [[JIMIFile JIMIShare] gameInitSuccess:^() {
+        NSLog(@"gameInitSuccess:返回是否测试提审 1测试");
+    } andFailure:^{
+        
+    }];
 ```
 
 ### 2.3 登录
